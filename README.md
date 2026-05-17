@@ -38,3 +38,10 @@
    - In react show 20 items that correspond to 20 requests, display `pending` for each of the requests and display corresponding result on receiving the websocket result
 
    > request --> `pending` --> socket message --> `result`
+
+## Getting Started
+
+```bash
+npm install
+npm run build --workspace client
+npm start
