@@ -1,0 +1,16 @@
+{
+  "name": "presight-execise",
+  "version": "1.0.0",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start": "node scripts/start.js",
+    "client": "npm run start --workspace client",
+    "server": "npm run start --workspace server"
+  }
+}
