@@ -45,3 +45,10 @@
 npm install
 npm run build --workspace client
 npm start
+```
+
+## Services
+| Service | URL |
+|----------|-----|
+| Client | http://localhost:5173 |
+| Server | http://127.0.0.1:4000 |
